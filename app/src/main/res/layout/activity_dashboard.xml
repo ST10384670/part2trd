@@ -38,7 +38,9 @@
         android:text="Profile"
         android:layout_marginBottom="12dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="#004d00"
+        android:textColor="@android:color/white"/>
 
     <!-- Settings Button -->
     <Button
@@ -46,7 +48,9 @@
         android:text="Settings"
         android:layout_marginBottom="12dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="#004d00"
+        android:textColor="@android:color/white"/>
 
     <!-- Analytics Button -->
     <Button
@@ -54,6 +58,8 @@
         android:text="Analytics"
         android:layout_marginBottom="12dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="#004d00"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

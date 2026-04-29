@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:orientation="vertical"
     android:padding="20dp"
@@ -15,21 +14,28 @@
         android:layout_height="wrap_content"/>
 
     <Switch
-        android:id="@+id/switchNotifications"
-        android:text="Enable Notifications"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications" />
 
     <Switch
-        android:id="@+id/switchDarkMode"
-        android:text="Dark Mode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btnSaveSettings"
-        android:text="Save Settings"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Dark Mode" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location Services" />
+
+    <!-- SAVE BUTTON -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Settings"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#006400"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>
